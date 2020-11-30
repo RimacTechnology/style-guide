@@ -1,0 +1,20 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DB_PRISMA_URL")
+}
+
+model User {
+    id        String   @id @default(dbgenerated("public.uuid_generate_v4()")) @db.Uuid
+    firstName String   @map("first_name")
+    lastName  String   @map("last_name")
+    email     String   @unique
+    isAdmin   Boolean  @default(false) @map("is_admin")
+    createdAt DateTime @default(dbgenerated("timezone('utc'::text, now())")) @map("created_at") @db.Timestamp(6)
+    buckets   String[]
+
+    @@map("users")
+}

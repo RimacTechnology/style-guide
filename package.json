@@ -1,0 +1,117 @@
+{
+    "name": "@rimac-technology/style-guide",
+    "version": "0.0.0",
+    "private": false,
+    "description": "Shareable style guide",
+    "bugs": {
+        "url": "https://github.com/RimacTechnology/style-guide/issues"
+    },
+    "repository": "git@github.com:RimacTechnology/style-guide.git",
+    "license": "MIT",
+    "author": "Rimac Technology d.o.o.",
+    "main": "index.js",
+    "files": [
+        "./prettier/*",
+        "./package-json/*",
+        "./eslint/*"
+    ],
+    "scripts": {
+        "cm": "cz",
+        "postinstall": "husky install",
+        "lint": "yarn lint:source & yarn lint:config & yarn lint:package-json",
+        "lint:config": "prettier --loglevel warn --no-editorconfig --no-error-on-unmatched-pattern --write \"./**/*{yaml,yml,json,md,prisma,graphql}\" ",
+        "lint:package-json": "npmPkgJsonLint --configFile ./.packagerc.js .",
+        "lint:source": "eslint './**/*.{js,ts}' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'",
+        "prepublishOnly": "pinst --disable",
+        "postpublish": "pinst --enable",
+        "release": "semantic-release",
+        "test": "yarn test:eslint && yarn test:prettier && yarn test:package-json",
+        "test:eslint": "eslint ./__tests__/eslint.ts",
+        "test:package-json": "npmPkgJsonLint --configFile ./.packagerc.js ./__tests__/",
+        "test:prettier": "prettier --loglevel warn --check ./__tests__/prettier.json"
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    },
+    "resolutions": {
+        "npm/chalk": "^4.1.2"
+    },
+    "dependencies": {
+        "@rimac-technology/eslint-plugin": "^1.4.0",
+        "@typescript-eslint/eslint-plugin": "^5.42.0",
+        "@typescript-eslint/parser": "^5.42.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-etc": "^2.0.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^27.1.4",
+        "eslint-plugin-jest-formatting": "^3.1.0",
+        "eslint-plugin-mobx": "^0.0.9",
+        "eslint-plugin-more": "^1.0.5",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.31.10",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-simple-import-sort": "^8.0.0",
+        "eslint-plugin-sonarjs": "^0.16.0",
+        "eslint-plugin-sort-destructure-keys": "^1.4.0",
+        "eslint-plugin-sort-keys-fix": "^1.1.2",
+        "eslint-plugin-testing-library": "^5.9.1",
+        "eslint-plugin-type-graphql": "^1.0.0",
+        "eslint-plugin-typescript-sort-keys": "^2.1.0",
+        "eslint-plugin-unicorn": "^44.0.2",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "eslint-plugin-workspaces": "^0.7.0",
+        "prettier-plugin-packagejson": "^2.3.0",
+        "prettier-plugin-prisma": "^4.4.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.2.0",
+        "@commitlint/config-conventional": "^17.2.0",
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^8.0.6",
+        "@semantic-release/npm": "^9.0.1",
+        "@semantic-release/release-notes-generator": "^10.0.3",
+        "@types/prettier": "^2.7.1",
+        "commitizen": "^4.2.5",
+        "conventional-changelog-conventionalcommits": "^5.0.0",
+        "eslint": "^8.27.0",
+        "husky": "^8.0.1",
+        "jest": "^29.2.2",
+        "npm-package-json-lint": "^6.3.0",
+        "pinst": "^3.0.0",
+        "prettier": "^2.7.1",
+        "semantic-release": "^19.0.5",
+        "typescript": "^4.8.4"
+    },
+    "peerDependencies": {
+        "eslint": "^8.27",
+        "npm-package-json-lint": "^6",
+        "prettier": "^8"
+    },
+    "peerDependenciesMeta": {
+        "eslint": {
+            "optional": true
+        },
+        "npm-package-json-lint": {
+            "optional": true
+        },
+        "prettier": {
+            "optional": true
+        }
+    },
+    "packageManager": "yarn@3.2.3",
+    "engines": {
+        "yarn": ">=3"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

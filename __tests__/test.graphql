@@ -1,0 +1,11 @@
+type BucketContentType {
+    entries: [EntryType!]!
+    path: String!
+}
+
+type EntryType {
+    lastModified: DateTime
+    name: String!
+    size: Float
+    type: EntryTypeEnum!
+}
