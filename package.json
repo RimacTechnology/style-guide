@@ -11,9 +11,10 @@
     "author": "Rimac Technology d.o.o.",
     "main": "index.js",
     "files": [
-        "./prettier/*",
-        "./package-json/*",
-        "./eslint/*"
+        "prettier",
+        "package-json",
+        "eslint",
+        "shared"
     ],
     "scripts": {
         "cm": "cz",
