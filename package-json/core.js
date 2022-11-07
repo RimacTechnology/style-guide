@@ -78,12 +78,6 @@ const config = {
                 'UNLICENSED',
             ],
         ],
-        'valid-values-name-scope': [
-            'error',
-            [
-                '@rimac-technology',
-            ],
-        ],
         'version-format': 'error',
         'version-type': 'error',
     },
