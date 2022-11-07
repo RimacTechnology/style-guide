@@ -92,7 +92,7 @@ module.exports = {
         overrides: [
             {
                 files: ['**/*.test.ts'],
-                extends: [require.resolve('@rimac-technology/style-guide/jest')],
+                extends: [require.resolve('@rimac-technology/style-guide/eslint/jest')],
             },
         ],
     }
