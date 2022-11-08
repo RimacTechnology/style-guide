@@ -11,14 +11,21 @@ module.exports = {
     },
     overrides: [
         {
-            'files': ['*.ts', '*.tsx'],
-            'rules': {
-                '@typescript-eslint/explicit-member-accessibility': ['error', {
-                    accessibility: 'explicit',
-                    overrides: {
-                        constructor: 'off',
+            files: ['*.ts', '*.tsx'],
+            rules: {
+                '@typescript-eslint/explicit-member-accessibility': [
+                    'error',
+                    {
+                        accessibility: 'explicit',
+                        overrides: {
+                            accessors: 'explicit',
+                            constructors: 'no-public',
+                            methods: 'explicit',
+                            parameterProperties: 'explicit',
+                            properties: 'explicit',
+                        },
                     },
-                }],
+                ],
             },
         },
     ],
