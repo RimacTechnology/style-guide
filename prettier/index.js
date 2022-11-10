@@ -1,12 +1,14 @@
+const constants = require('../shared/constants')
+
 /** @type { import('@types/prettier').Config } */
 const config = {
     endOfLine: 'lf',
     plugins: ['prettier-plugin-packagejson', 'prettier-plugin-prisma'],
-    printWidth: 130,
+    printWidth: constants.MAX_WIDTH,
     proseWrap: 'always',
     semi: false,
     singleQuote: true,
-    tabWidth: 4,
+    tabWidth: constants.INDENT_AMOUNT,
     useTabs: false,
 }
 

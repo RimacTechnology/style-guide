@@ -117,6 +117,19 @@ module.exports = {
         '@typescript-eslint/no-extra-non-null-assertion': 'error',
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-inferrable-types': 'error',
+        '@typescript-eslint/no-magic-numbers': [
+            'error',
+            {
+                detectObjects: false,
+                ignore: [1, 0, -1],
+                ignoreArrayIndexes: true,
+                ignoreDefaultValues: true,
+                ignoreEnums: true,
+                ignoreNumericLiteralTypes: true,
+                ignoreReadonlyClassProperties: true,
+                ignoreTypeIndexes: true,
+            },
+        ],
         '@typescript-eslint/no-meaningless-void-operator': 'error',
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
@@ -266,9 +279,9 @@ module.exports = {
         'max-len': [
             'error',
             {
-                'code': 120,
-                'ignoreComments': true,
-                'ignorePattern': '^import .*',
+                code: constants.MAX_WIDTH,
+                ignoreComments: true,
+                ignorePattern: '^import .*',
             },
         ],
         'more/no-void-map': 'error',
@@ -276,9 +289,7 @@ module.exports = {
         'newline-before-return': 'error',
         'newline-per-chained-call': [
             'error',
-            {
-                'ignoreChainWithDepth': 2,
-            },
+            { ignoreChainWithDepth: 2 },
         ],
         'no-async-promise-executor': 'error',
         'no-await-in-loop': 'warn',
@@ -310,7 +321,6 @@ module.exports = {
         'no-inner-declarations': 'error',
         'no-invalid-regexp': 'error',
         'no-irregular-whitespace': 'error',
-        'no-magic-numbers': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-multi-spaces': 'error',
         'no-multiple-empty-lines': [
@@ -355,8 +365,8 @@ module.exports = {
             'error',
             {
                 'ImportDeclaration': {
-                    'minProperties': 2,
-                    'multiline': true,
+                    minProperties: 2,
+                    multiline: true,
                 },
             },
         ],
