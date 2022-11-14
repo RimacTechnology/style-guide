@@ -1,7 +1,6 @@
 {
     "name": "@rimac-technology/style-guide",
     "version": "1.0.4",
-    "private": false,
     "description": "Shareable style guide",
     "bugs": {
         "url": "https://github.com/RimacTechnology/style-guide/issues"
@@ -46,12 +45,12 @@
     },
     "dependencies": {
         "@rimac-technology/eslint-plugin": "^1.4.0",
-        "@typescript-eslint/eslint-plugin": "^5.42.0",
-        "@typescript-eslint/parser": "^5.42.0",
+        "@typescript-eslint/eslint-plugin": "^5.43.0",
+        "@typescript-eslint/parser": "^5.43.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-etc": "^2.0.2",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jest": "^27.1.4",
+        "eslint-plugin-jest": "^27.1.5",
         "eslint-plugin-jest-formatting": "^3.1.0",
         "eslint-plugin-mobx": "^0.0.9",
         "eslint-plugin-more": "^1.0.5",
@@ -84,8 +83,8 @@
         "commitizen": "^4.2.5",
         "conventional-changelog-conventionalcommits": "^5.0.0",
         "eslint": "^8.27.0",
-        "husky": "^8.0.1",
-        "jest": "^29.2.2",
+        "husky": "^8.0.2",
+        "jest": "^29.3.1",
         "npm-package-json-lint": "^6.3.0",
         "pinst": "^3.0.0",
         "prettier": "^2.7.1",
