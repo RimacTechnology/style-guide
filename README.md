@@ -76,12 +76,14 @@ module.exports = {
         - For example all ts, js and tsx files: `./**/*.${js,ts,tsx}`
 
 4. You can use any of the optional rulesets
+
     - `@rimac-technology/style-guide/eslint/react`
     - `@rimac-technology/style-guide/eslint/jest`
     - `@rimac-technology/style-guide/eslint/testing-library`
     - `@rimac-technology/style-guide/eslint/mobx`
     - `@rimac-technology/style-guide/eslint/type-graphql`
     - Example configuration with overrides for only `.test.ts` files with `jest` ruleset
+
     ```javascript
     module.exports = {
         extends: [require.resolve('@rimac-technology/style-guide/eslint/core')],
@@ -97,3 +99,29 @@ module.exports = {
         ],
     }
     ```
+
+5. Add eslint cache to `.gitignore` like so
+
+```
+.eslintcache
+```
+
+## Stylelint
+
+1. Create a new file at the root of your project called `.stylelintrc.js` with the following
+
+```javascript
+module.exports = {
+    extends: '@rimac-technology/style-guide/stylelint',
+}
+```
+
+2. Install `stylelint`
+
+3. Add a script to your `package.json` with `stylelint --cache './**/*.css'`
+
+4. Add stylelint cache to `.gitignore` like so
+
+```
+.stylelintcache
+```
