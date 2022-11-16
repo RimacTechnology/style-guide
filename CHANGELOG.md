@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/RimacTechnology/style-guide/compare/v1.0.5...v1.1.0) (2022-11-16)
+
+
+### Features
+
+* stylelint setup ([1215298](https://github.com/RimacTechnology/style-guide/commit/121529873a3981ded0366b659f2ca535957ce9fc))
+
 ## [1.0.5](https://github.com/RimacTechnology/style-guide/compare/v1.0.4...v1.0.5) (2022-11-14)
 
 ## [1.0.4](https://github.com/RimacTechnology/style-guide/compare/v1.0.3...v1.0.4) (2022-11-10)
