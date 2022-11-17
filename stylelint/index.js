@@ -51,7 +51,13 @@ const config = {
         'no-unknown-animations': true,
         'property-no-unknown': true,
         'property-no-vendor-prefix': true,
-        'rule-empty-line-before': 'always',
+        'rule-empty-line-before': [
+            'always',
+            {
+                except: ['after-single-line-comment'],
+                ignore: ['first-nested', 'after-comment'],
+            },
+        ],
         'selector-attribute-quotes': 'always',
         'selector-no-vendor-prefix': true,
         'selector-not-notation': 'simple',
