@@ -1,4 +1,11 @@
 p {
     text-align: center;
     color: #ffffff;
+    font-family: Segoe UI, Roboto;
+}
+
+:root {
+    --theme-fonts-quantico: Quantico;
+    --theme-fonts-titillium: Titillium Web;
+    --theme-lineHeights-caption: 18px;
 }
