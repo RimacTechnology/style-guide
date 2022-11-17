@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/RimacTechnology/style-guide/compare/v1.1.0...v1.1.1) (2022-11-17)
+
+
+### Bug Fixes
+
+* ignore fonts for `value-keyword-case` ([022e68f](https://github.com/RimacTechnology/style-guide/commit/022e68faf0e6e0ad0200baf6299635d4cbe82273))
+
 # [1.1.0](https://github.com/RimacTechnology/style-guide/compare/v1.0.5...v1.1.0) (2022-11-16)
 
 
