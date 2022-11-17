@@ -57,7 +57,6 @@ const config = {
         'require-description': 'error',
         'require-license': 'error',
         'require-name': 'error',
-        'require-version': 'error',
         'scripts-type': 'error',
         'valid-values-author': [
             'error',
