@@ -129,3 +129,34 @@ module.exports = {
 ```
 .stylelintcache
 ```
+
+## CSpell
+
+1. Install `cspell`
+
+2. Create a new file at the root of your project called `.cspell.json` with the following
+
+```json
+{
+    "useGitignore": true,
+    "cache": {
+        "useCache": true,
+        "cacheStrategy": "content",
+        "cacheLocation": "./.cspellcache"
+    },
+    "ignorePaths": [
+        // Add ignored paths/files here
+    ],
+    "ignoreWords": [
+        // Add words here
+    ]
+}
+```
+
+3. Add a script to your `package.json` with `cspell --no-progress --no-summary '**'`
+
+4. Add cspell cache to `.gitignore` like so
+
+```
+.cspellcache
+```
