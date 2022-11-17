@@ -2,6 +2,8 @@
 
 This repository encapsulates all the different configurations we use at Rimac Technology when developing with JS
 
+Firstly install the style guide by doing `yarn add -D @rimac-technology/style-guide` and then pick the configurations you need:
+
 ## Prettier
 
 1. Create a new file at the root of your project called `.prettierrc.js` with the following
