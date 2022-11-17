@@ -41,7 +41,6 @@ const config = {
         'media-feature-name-no-unknown': true,
         'media-feature-name-no-vendor-prefix': true,
         'named-grid-areas-no-invalid': true,
-        'no-descending-specificity': true,
         'no-duplicate-at-import-rules': true,
         'no-duplicate-selectors': [true, { disallowInList: true }],
         'no-empty-source': true,
