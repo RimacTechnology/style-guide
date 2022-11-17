@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/RimacTechnology/style-guide/compare/v1.1.1...v1.1.2) (2022-11-17)
+
+
+### Bug Fixes
+
+* don't report nested selectors in `rule-empty-line-before` ([9847e60](https://github.com/RimacTechnology/style-guide/commit/9847e60eccfa17e961b82d4d1a2af0892659cf9b))
+
 ## [1.1.1](https://github.com/RimacTechnology/style-guide/compare/v1.1.0...v1.1.1) (2022-11-17)
 
 
