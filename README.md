@@ -2,11 +2,13 @@
 
 This repository encapsulates all the different configurations we use at Rimac Technology when developing with JS
 
-Firstly install the style guide by doing `yarn add -D @rimac-technology/style-guide` and then pick the configurations you need:
+**Firstly install the style guide `@rimac-technology/style-guide` and then pick the configurations you need:**
 
 ## Prettier
 
-1. Create a new file at the root of your project called `.prettierrc.js` with the following
+1. Install `prettier` as a dev dependency
+
+2. Create a new file at the root of your project called `.prettierrc.js` with the following
 
 ```javascript
 module.exports = {
@@ -14,11 +16,7 @@ module.exports = {
 }
 ```
 
-2. Install `prettier` as a dev dependency
-
 3. Create a `.prettierignore` file with the following
-    - Do a test run and see what prettier matches and add files you don't want to check in it since prettier still doesn't support
-      having `.gitignore` and `.prettierignore` [working together](https://github.com/prettier/prettier/issues/8048)
 
 ```
 CHANGELOG.md # If your project contains it
@@ -26,12 +24,18 @@ CHANGELOG.md # If your project contains it
 
 4. Add a script to your `package.json` with
    `prettier --loglevel warn --no-editorconfig --no-error-on-unmatched-pattern --check \"./**/*{yaml,yml,json,md,gql,graphql,prisma}\" `
+
     - Adjust the glob to match files you want to check
     - This glob will match all the files recursively in your project
 
+5. Do a test run and see what prettier matches and add files you don't want to check in it since prettier still doesn't support
+   having `.gitignore` and `.prettierignore` [working together](https://github.com/prettier/prettier/issues/8048)
+
 ## Package JSON
 
-1. Create a new file at the root of your project called `.packagerc.js` with
+1. Install `npm-package-json-lint` as a dev dependency
+
+2. Create a new file at the root of your project called `.packagerc.js` with
 
     - If you are using workspaces
 
@@ -49,13 +53,13 @@ CHANGELOG.md # If your project contains it
     }
     ```
 
-2. Install `npm-package-json-lint` as a dev dependency
-
 3. Add a script to your `package.json` with `npmPkgJsonLint --configFile ./.packagerc.js .`
 
 ## ESLint
 
-1. Create a new file at the root of your project called `.eslintrc.js` with the following
+1. Install `eslint`
+
+2. Create a new file at the root of your project called `.eslintrc.js` with the following
     - Make sure `parserOptions.project` points to the correct `tsconfig.json` location
 
 ```javascript
@@ -68,8 +72,6 @@ module.exports = {
     ignorePatterns: ['**/*.json', '**/*.gql', '**/*.yml'],
 }
 ```
-
-2. Install `eslint`
 
 3. Add a script to your `package.json` with
    `eslint './glob' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'`
@@ -110,15 +112,15 @@ module.exports = {
 
 ## Stylelint
 
-1. Create a new file at the root of your project called `.stylelintrc.js` with the following
+1. Install `stylelint`
+
+2. Create a new file at the root of your project called `.stylelintrc.js` with the following
 
 ```javascript
 module.exports = {
     extends: '@rimac-technology/style-guide/stylelint',
 }
 ```
-
-2. Install `stylelint`
 
 3. Add a script to your `package.json` with `stylelint --cache './**/*.css'`
 
