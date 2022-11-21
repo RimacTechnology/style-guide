@@ -1,29 +1,29 @@
 const constants = require('../shared/constants')
 
 module.exports = {
-    'env': {
-        'browser': true,
+    env: {
+        browser: true,
     },
-    'overrides': [
+    overrides: [
         {
-            'files': [
+            files: [
                 '**/*.tsx',
             ],
-            'rules': {
+            rules: {
                 'react/prop-types': 'off',
             },
         },
     ],
-    'parserOptions': {
-        'ecmaFeatures': {
-            'jsx': true,
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
         },
     },
-    'plugins': [
+    plugins: [
         'react',
         'react-hooks',
     ],
-    'rules': {
+    rules: {
         'react-hooks/exhaustive-deps': 'warn',
         'react-hooks/rules-of-hooks': 'error',
         'react/jsx-boolean-value': [
@@ -105,7 +105,28 @@ module.exports = {
                 'return': 'parens-new-line',
             },
         ],
-        'react/no-unknown-property': 'error',
+        'react/no-unknown-property': [
+            'error',
+            {
+                'ignore': [
+                    'position',
+                    'material',
+                    'geometry',
+                    'args',
+                    'attach',
+                    'fragmentShader',
+                    'side',
+                    'transparent',
+                    'uniforms',
+                    'vertexShader',
+                    'object',
+                    'dispose',
+                    'intensity',
+                    'rotation',
+                    'metalness',
+                ],
+            },
+        ],
         'react/self-closing-comp': [
             'error',
             {
