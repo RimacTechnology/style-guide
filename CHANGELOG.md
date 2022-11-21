@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/RimacTechnology/style-guide/compare/v1.1.5...v1.2.0) (2022-11-21)
+
+
+### Features
+
+* **core:** add `ignoreClassFieldInitialValues` for magic numbers ([a14903c](https://github.com/RimacTechnology/style-guide/commit/a14903cb8d5c8dfb28ed18b2c71674a22e96ea2d))
+
 ## [1.1.5](https://github.com/RimacTechnology/style-guide/compare/v1.1.4...v1.1.5) (2022-11-17)
 
 ## [1.1.4](https://github.com/RimacTechnology/style-guide/compare/v1.1.3...v1.1.4) (2022-11-17)
