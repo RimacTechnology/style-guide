@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/RimacTechnology/style-guide/compare/v1.2.0...v1.2.1) (2022-11-21)
+
+
+### Bug Fixes
+
+* **react:** ignore words for `react/no-unknown-property` ([d188d30](https://github.com/RimacTechnology/style-guide/commit/d188d30d7c7a97943be48af3b9d03ceb074a3984))
+
 # [1.2.0](https://github.com/RimacTechnology/style-guide/compare/v1.1.5...v1.2.0) (2022-11-21)
 
 
