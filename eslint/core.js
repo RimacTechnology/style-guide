@@ -124,6 +124,7 @@ module.exports = {
                 ignore: [1, 0, -1],
                 ignoreArrayIndexes: true,
                 ignoreDefaultValues: true,
+                ignoreClassFieldInitialValues: true,
                 ignoreEnums: true,
                 ignoreNumericLiteralTypes: true,
                 ignoreReadonlyClassProperties: true,
