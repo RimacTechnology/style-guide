@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/RimacTechnology/style-guide/compare/v1.2.3...v1.2.4) (2022-11-22)
+
+
+### Bug Fixes
+
+* **package-json:** remove `ts-node` from restricted deps ([c03abe0](https://github.com/RimacTechnology/style-guide/commit/c03abe0059ff106c387b526b6aed7d1953796e5e))
+
 ## [1.2.3](https://github.com/RimacTechnology/style-guide/compare/v1.2.2...v1.2.3) (2022-11-22)
 
 ## [1.2.2](https://github.com/RimacTechnology/style-guide/compare/v1.2.1...v1.2.2) (2022-11-22)
