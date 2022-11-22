@@ -37,7 +37,6 @@ const config = {
                 'ramda',
                 'lodash',
                 '@types/*',
-                'ts-node',
                 'typescript',
             ],
         ],
