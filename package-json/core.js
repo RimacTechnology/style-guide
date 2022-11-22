@@ -29,8 +29,6 @@ const config = {
         'no-archive-devDependencies': 'error',
         'no-file-dependencies': 'error',
         'no-file-devDependencies': 'error',
-        'no-git-dependencies': 'error',
-        'no-git-devDependencies': 'error',
         'no-repeated-dependencies': 'error',
         'no-restricted-dependencies': [
             'error',
