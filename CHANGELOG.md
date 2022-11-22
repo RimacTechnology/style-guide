@@ -1,3 +1,5 @@
+## [1.2.2](https://github.com/RimacTechnology/style-guide/compare/v1.2.1...v1.2.2) (2022-11-22)
+
 ## [1.2.1](https://github.com/RimacTechnology/style-guide/compare/v1.2.0...v1.2.1) (2022-11-21)
 
 
