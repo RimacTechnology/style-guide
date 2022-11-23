@@ -1,6 +1,7 @@
 /** @type { import('stylelint').Config } */
 const config = {
     defaultSeverity: 'error',
+    plugins: ['stylelint-order'],
     reportDescriptionlessDisables: true,
     reportInvalidScopeDisables: true,
     reportNeedlessDisables: true,
@@ -48,6 +49,7 @@ const config = {
         'no-invalid-position-at-import-rule': true,
         'no-irregular-whitespace': true,
         'no-unknown-animations': true,
+        'order/properties-alphabetical-order': 'error',
         'property-no-unknown': true,
         'property-no-vendor-prefix': true,
         'rule-empty-line-before': [
