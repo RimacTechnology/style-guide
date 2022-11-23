@@ -69,12 +69,12 @@ module.exports = {
     parserOptions: {
         project: './tsconfig.json',
     },
-    ignorePatterns: ['**/*.json', '**/*.gql', '**/*.yml'],
+    ignorePatterns: ['**/*generated.json'],
 }
 ```
 
 3. Add a script to your `package.json` with
-   `eslint './glob' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'`
+   `eslint './**/*.{js,ts}' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'`
 
     - Adjust the `glob` to match files your want to check
         - For example all ts, js and tsx files: `./**/*.${js,ts,tsx}`
