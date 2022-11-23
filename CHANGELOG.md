@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/RimacTechnology/style-guide/compare/v1.2.4...v1.3.0) (2022-11-23)
+
+
+### Features
+
+* **stylelint:** add alphabetical properties sort rule ([2117974](https://github.com/RimacTechnology/style-guide/commit/21179742aaf1867cff510fd40e39000ef165bb84))
+
 ## [1.2.4](https://github.com/RimacTechnology/style-guide/compare/v1.2.3...v1.2.4) (2022-11-22)
 
 
