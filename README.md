@@ -135,7 +135,7 @@ module.exports = {
 }
 ```
 
-3. Add a script to your `package.json` with `stylelint --cache './**/*.css'`
+3. Add a script to your `package.json` with `stylelint --cache --allow-empty-input './**/*.css'`
 
 4. Add stylelint cache to `.gitignore` like so
 
