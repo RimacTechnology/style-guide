@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/RimacTechnology/style-guide/compare/v1.4.0...v1.4.1) (2022-11-24)
+
+
+### Bug Fixes
+
+* **stylelint:** ignore first nested for `at-rule-empty-line-before` ([8bc20b3](https://github.com/RimacTechnology/style-guide/commit/8bc20b35c8d0e0cdb148333d0197f22967e62eba))
+
 # [1.4.0](https://github.com/RimacTechnology/style-guide/compare/v1.3.1...v1.4.0) (2022-11-24)
 
 
