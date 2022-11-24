@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/RimacTechnology/style-guide/compare/v1.3.1...v1.4.0) (2022-11-24)
+
+
+### Features
+
+* **next:** add nextjs config ([4db1730](https://github.com/RimacTechnology/style-guide/commit/4db1730863715e7089639d7904b7d6d5ef6b419d))
+
 ## [1.3.1](https://github.com/RimacTechnology/style-guide/compare/v1.3.0...v1.3.1) (2022-11-23)
 
 # [1.3.0](https://github.com/RimacTechnology/style-guide/compare/v1.2.4...v1.3.0) (2022-11-23)
