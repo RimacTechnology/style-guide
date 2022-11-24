@@ -85,6 +85,19 @@ module.exports = {
     - `@rimac-technology/style-guide/eslint/jest`
     - `@rimac-technology/style-guide/eslint/testing-library`
     - `@rimac-technology/style-guide/eslint/mobx`
+    - `@rimac-technology/style-guide/eslint/next`
+        - You need to add a setting to point to your pages directory in `.eslintrc.js` config file like so
+        ```javascript
+        module.exports = {
+            // Other config stuff
+            settings: {
+                next: {
+                    rootDir: './packages/web/',
+                },
+            },
+            // Other config stuff
+        }
+        ```
     - `@rimac-technology/style-guide/eslint/type-graphql`
     - Example configuration with overrides for only `.test.ts` files with `jest` ruleset
 
