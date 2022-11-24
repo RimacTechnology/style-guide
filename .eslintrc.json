@@ -3,6 +3,11 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
+    "settings": {
+        "next": {
+            "rootDir": "./__tests__"
+        }
+    },
     "overrides": [
         {
             "extends": ["./eslint/core.js"],
@@ -15,6 +20,7 @@
                 "./eslint/mobx.js",
                 "./eslint/react.js",
                 "./eslint/testing-library.js",
+                "./eslint/next.js",
                 "./eslint/type-graphql.js"
             ],
             "files": "*.ts"
