@@ -86,7 +86,7 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/func-call-spacing': 'error',
-        // '@typescript-eslint/keyword-spacing': 'error', // TODO: Fixed but not released https://github.com/typescript-eslint/typescript-eslint/pull/6073
+        // '@typescript-eslint/keyword-spacing': 'error', // Fixed but not released https://github.com/typescript-eslint/typescript-eslint/pull/6073
         '@typescript-eslint/member-delimiter-style': [
             'error',
             {

@@ -43,7 +43,7 @@ const config = {
         'media-feature-name-no-vendor-prefix': true,
         'named-grid-areas-no-invalid': true,
         'no-duplicate-at-import-rules': true,
-        'no-duplicate-selectors': [true, { disallowInList: true }],
+        'no-duplicate-selectors': true,
         'no-empty-source': true,
         'no-invalid-double-slash-comments': true,
         'no-invalid-position-at-import-rule': true,
