@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/RimacTechnology/style-guide/compare/v1.4.1...v1.4.2) (2022-11-25)
+
+
+### Bug Fixes
+
+* **core:** disable broken `@typescript-eslint/keyword-spacing` rule ([b51af49](https://github.com/RimacTechnology/style-guide/commit/b51af49fe41f980e0e8b10a5a6c9ff5a4c7c3b40))
+
 ## [1.4.1](https://github.com/RimacTechnology/style-guide/compare/v1.4.0...v1.4.1) (2022-11-24)
 
 
