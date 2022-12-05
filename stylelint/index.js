@@ -62,7 +62,7 @@ const config = {
         'selector-attribute-quotes': 'always',
         'selector-no-vendor-prefix': true,
         'selector-not-notation': 'simple',
-        'selector-pseudo-class-no-unknown': true,
+        'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['global'] }],
         'selector-pseudo-element-colon-notation': 'double',
         'selector-pseudo-element-no-unknown': true,
         'selector-type-case': 'lower',

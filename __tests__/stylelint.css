@@ -38,3 +38,7 @@ a {
         width: 100%;
     }
 }
+
+:global(a) {
+    color: '#fff';
+}
