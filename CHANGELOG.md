@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/RimacTechnology/style-guide/compare/v1.4.3...v1.4.4) (2022-12-05)
+
+
+### Bug Fixes
+
+* **stylelint:** ignore `global` for `selector-pseudo-class-no-unknown` ([74173dc](https://github.com/RimacTechnology/style-guide/commit/74173dc2a84625093fcba89f7f7a6727fbf58fdd))
+
 ## [1.4.3](https://github.com/RimacTechnology/style-guide/compare/v1.4.2...v1.4.3) (2022-11-25)
 
 ## [1.4.2](https://github.com/RimacTechnology/style-guide/compare/v1.4.1...v1.4.2) (2022-11-25)
