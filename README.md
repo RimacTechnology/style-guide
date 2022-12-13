@@ -57,7 +57,7 @@ CHANGELOG.md # If your project contains it
 
 ## ESLint
 
-1. Install `eslint`
+1. Install `eslint` as a dev dependency
 
 2. Create a new file at the root of your project called `.eslintrc.js` with the following
     - Make sure `parserOptions.project` points to the correct `tsconfig.json` location
@@ -125,7 +125,7 @@ module.exports = {
 
 ## Stylelint
 
-1. Install `stylelint`
+1. Install `stylelint` as a dev dependency
 
 2. Create a new file at the root of your project called `.stylelintrc.js` with the following
 
@@ -145,7 +145,7 @@ module.exports = {
 
 ## CSpell
 
-1. Install `cspell`
+1. Install `cspell` as a dev dependency
 
 2. Create a new file at the root of your project called `.cspell.json` with the following
 
