@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/RimacTechnology/style-guide/compare/v1.4.4...v1.4.5) (2022-12-15)
+
+
+### Bug Fixes
+
+* **stylelint:** ignore `grid-template` for `declaration-block-no-redundant-longhand-properties` ([03128b5](https://github.com/RimacTechnology/style-guide/commit/03128b5cb4ec0cb0e9c42114d840b3eb836cf184))
+
 ## [1.4.4](https://github.com/RimacTechnology/style-guide/compare/v1.4.3...v1.4.4) (2022-12-05)
 
 
