@@ -23,7 +23,7 @@ const config = {
         'custom-property-no-missing-var-function': true,
         'declaration-block-no-duplicate-custom-properties': true,
         'declaration-block-no-duplicate-properties': true,
-        'declaration-block-no-redundant-longhand-properties': true,
+        'declaration-block-no-redundant-longhand-properties': [true, { ignoreShorthands: 'grid-template' }],
         'declaration-block-no-shorthand-property-overrides': true,
         'declaration-no-important': true,
         'font-family-name-quotes': 'always-where-required',
