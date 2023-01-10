@@ -34,7 +34,7 @@ a {
         background-size: 200px 100%;
         border-radius: 4px;
         display: inline-flex;
-        grid-template-areas: "vehicleInformation changelog" "dataFormat changelog";
+        grid-template-areas: 'vehicleInformation changelog' 'dataFormat changelog';
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: min-content 1fr;
         line-height: 1;
@@ -44,4 +44,7 @@ a {
 
 :global(a) {
     color: '#fff';
+}
+
+@media (1px <= width <= 2px) {
 }
