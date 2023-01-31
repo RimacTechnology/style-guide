@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/RimacTechnology/style-guide/compare/v1.4.5...v2.0.0) (2023-01-31)
+
+
+### Features
+
+* **stylelint:** add `media-feature-range-notation` ([e3ef623](https://github.com/RimacTechnology/style-guide/commit/e3ef623c1dfc62aa0683a9f3faf70ff24289d3d7))
+
+
+### BREAKING CHANGES
+
+* **stylelint:** media queries will now need to conform to `media-feature-range-notation`
+
 ## [1.4.5](https://github.com/RimacTechnology/style-guide/compare/v1.4.4...v1.4.5) (2022-12-15)
 
 
