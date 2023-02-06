@@ -448,7 +448,6 @@ module.exports = {
         'unicorn/better-regex': 'error',
         'unicorn/catch-error-name': 'error',
         'unicorn/consistent-destructuring': 'error',
-        'unicorn/custom-error-definition': 'error',
         'unicorn/empty-brace-spaces': 'error',
         'unicorn/error-message': 'error',
         'unicorn/escape-case': 'error',
