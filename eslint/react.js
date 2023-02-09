@@ -83,7 +83,6 @@ module.exports = {
         'react/jsx-one-expression-per-line': 'error',
         'react/jsx-pascal-case': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
-        'react/jsx-sort-props': 'error',
         'react/jsx-tag-spacing': [
             'error',
             {
@@ -134,6 +133,7 @@ module.exports = {
                 'html': true,
             },
         ],
+        'react/sort-default-props': 'error',
     },
     'settings': {
         'react': {
