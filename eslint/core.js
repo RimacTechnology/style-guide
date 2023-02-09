@@ -462,6 +462,7 @@ module.exports = {
         'unicorn/no-new-buffer': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-this-assignment': 'error',
+        'unicorn/no-typeof-undefined': 'error',
         'unicorn/no-unnecessary-await': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
         'unicorn/no-unreadable-iife': 'error',
