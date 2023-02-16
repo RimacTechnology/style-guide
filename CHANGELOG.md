@@ -1,3 +1,23 @@
+# [3.0.0](https://github.com/RimacTechnology/style-guide/compare/v2.0.3...v3.0.0) (2023-02-16)
+
+
+### Code Refactoring
+
+* **eslint:** import sort rule has sightly different algorithm ([0930248](https://github.com/RimacTechnology/style-guide/commit/0930248647ed3ba88467ecde645cf0500167ee21))
+
+
+### Features
+
+* **eslint:** add `unicorn/no-typeof-undefined` ([7fd9a2e](https://github.com/RimacTechnology/style-guide/commit/7fd9a2e6321797b55947e3498d4465560bde12f0))
+* **eslint:** add `unicorn/prefer-set-size` ([3385ce8](https://github.com/RimacTechnology/style-guide/commit/3385ce83bf7437cb454ae809a6b3dbf3fdd0d3b5))
+
+
+### BREAKING CHANGES
+
+* **eslint:** import sorting is now slightly different
+* **eslint:** using `[...new Set(set)]` instead of `new Set(set).size` will now error
+* **eslint:** comparing directly to `typeof undefined` will now error
+
 ## [2.0.3](https://github.com/RimacTechnology/style-guide/compare/v2.0.2...v2.0.3) (2023-02-07)
 
 ## [2.0.2](https://github.com/RimacTechnology/style-guide/compare/v2.0.1...v2.0.2) (2023-02-06)
