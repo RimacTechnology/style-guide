@@ -43,7 +43,7 @@ a {
 }
 
 :global(a) {
-    color: '#fff';
+    color: #ffffff;
 }
 
 @media (1px <= width <= 2px) {

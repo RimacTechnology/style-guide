@@ -26,6 +26,7 @@ const config = {
         'declaration-block-no-redundant-longhand-properties': [true, { ignoreShorthands: 'grid-template' }],
         'declaration-block-no-shorthand-property-overrides': true,
         'declaration-no-important': true,
+        'declaration-property-value-no-unknown': true,
         'font-family-name-quotes': 'always-where-required',
         'font-family-no-duplicate-names': true,
         'function-calc-no-unspaced-operator': true,
