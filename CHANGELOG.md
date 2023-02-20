@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/RimacTechnology/style-guide/compare/v3.0.0...v4.0.0) (2023-02-20)
+
+
+### Features
+
+* **stylelint:** add `declaration-property-value-no-unknown` ([c3cd1d1](https://github.com/RimacTechnology/style-guide/commit/c3cd1d16443b24d248b4ed5146b124b880e8b0ad))
+
+
+### BREAKING CHANGES
+
+* **stylelint:** css key value properties will now be validated
+
 # [3.0.0](https://github.com/RimacTechnology/style-guide/compare/v2.0.3...v3.0.0) (2023-02-16)
 
 
