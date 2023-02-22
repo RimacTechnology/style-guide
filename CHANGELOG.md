@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/RimacTechnology/style-guide/compare/v4.0.0...v4.0.1) (2023-02-22)
+
+
+### Bug Fixes
+
+* **core:** disable `unicorn/no-useless-spread` as there are false positives ([a9083dc](https://github.com/RimacTechnology/style-guide/commit/a9083dc44b2cf269031a35b53f88c185e407e68a))
+
 # [4.0.0](https://github.com/RimacTechnology/style-guide/compare/v3.0.0...v4.0.0) (2023-02-20)
 
 
