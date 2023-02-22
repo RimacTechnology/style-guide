@@ -470,7 +470,7 @@ module.exports = {
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/no-useless-promise-resolve-reject': 'error',
-        'unicorn/no-useless-spread': 'error',
+        // 'unicorn/no-useless-spread': 'error', https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2018
         'unicorn/no-zero-fractions': 'error',
         'unicorn/numeric-separators-style': 'error',
         'unicorn/prefer-array-find': 'error',
