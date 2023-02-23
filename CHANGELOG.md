@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/RimacTechnology/style-guide/compare/v4.0.1...v5.0.0) (2023-02-23)
+
+
+### Features
+
+* **eslint:** add `function-paren-newline` ([7b9517b](https://github.com/RimacTechnology/style-guide/commit/7b9517b392a9d16fe163d6867630b46c95194946))
+
+
+### BREAKING CHANGES
+
+* **eslint:** functin brackets now have to have consistent line breaks
+
 ## [4.0.1](https://github.com/RimacTechnology/style-guide/compare/v4.0.0...v4.0.1) (2023-02-22)
 
 
