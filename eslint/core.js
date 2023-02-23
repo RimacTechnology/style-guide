@@ -189,6 +189,7 @@ module.exports = {
             'error',
             'never',
         ],
+        "array-element-newline": ["error", "consistent"],
         'arrow-parens': [
             'error',
             'always',
