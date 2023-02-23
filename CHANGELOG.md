@@ -1,3 +1,17 @@
+# [6.0.0](https://github.com/RimacTechnology/style-guide/compare/v5.0.0...v6.0.0) (2023-02-23)
+
+
+### Features
+
+* **eslint:** add `array-element-newline` ([d2f96cf](https://github.com/RimacTechnology/style-guide/commit/d2f96cf1b02d56959a0ee9379cb0ed6640ef516d))
+* **eslint:** add `function-call-argument-newline` ([d34a91c](https://github.com/RimacTechnology/style-guide/commit/d34a91c95b8264e609e5c2b9b22df61cbc410805))
+
+
+### BREAKING CHANGES
+
+* **eslint:** function call arguments now have to have consistent line breaks
+* **eslint:** array elements now have to have consistent line breaks
+
 # [5.0.0](https://github.com/RimacTechnology/style-guide/compare/v4.0.1...v5.0.0) (2023-02-23)
 
 
