@@ -218,6 +218,7 @@ module.exports = {
         'etc/no-t': 'error',
         'for-direction': 'error',
         'func-call-spacing': 'off',
+        'function-paren-newline': ['error', 'consistent'],
         'import/default': 'error',
         'import/export': 'error',
         'import/named': 'error',
