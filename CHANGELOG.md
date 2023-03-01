@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/RimacTechnology/style-guide/compare/v6.0.0...v6.1.0) (2023-03-01)
+
+
+### Features
+
+* **stylelint:** add `after-comment` for `at-rule-empty-line-before` ([fbc1ffe](https://github.com/RimacTechnology/style-guide/commit/fbc1ffe26d4cf81ce28d5b85bbd8fff4db1a8975))
+
 # [6.0.0](https://github.com/RimacTechnology/style-guide/compare/v5.0.0...v6.0.0) (2023-02-23)
 
 
