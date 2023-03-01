@@ -8,7 +8,7 @@ const config = {
     rules: {
         'alpha-value-notation': 'number',
         'annotation-no-unknown': true,
-        'at-rule-empty-line-before': ['always', { ignore: 'first-nested' }],
+        'at-rule-empty-line-before': ['always', { ignore: ['first-nested', 'after-comment'] }],
         'at-rule-no-unknown': true,
         'at-rule-no-vendor-prefix': true,
         'color-function-notation': 'legacy',

@@ -189,7 +189,7 @@ module.exports = {
             'error',
             'never',
         ],
-        "array-element-newline": ["error", "consistent"],
+        'array-element-newline': ['error', 'consistent'],
         'arrow-parens': [
             'error',
             'always',
@@ -218,8 +218,8 @@ module.exports = {
         'etc/no-internal': 'error',
         'etc/no-t': 'error',
         'for-direction': 'error',
-        "function-call-argument-newline": ["error", "consistent"],
         'func-call-spacing': 'off',
+        'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'consistent'],
         'import/default': 'error',
         'import/export': 'error',
