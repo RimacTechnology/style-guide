@@ -1,3 +1,5 @@
+## [6.1.1](https://github.com/RimacTechnology/style-guide/compare/v6.1.0...v6.1.1) (2023-03-06)
+
 # [6.1.0](https://github.com/RimacTechnology/style-guide/compare/v6.0.0...v6.1.0) (2023-03-01)
 
 
