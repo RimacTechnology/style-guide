@@ -257,6 +257,7 @@ module.exports = {
         'indent': [
             'error',
             constants.INDENT_AMOUNT,
+            { 'SwitchCase': 1 },
         ],
         'init-declarations': 'off',
         'jsx-quotes': [
