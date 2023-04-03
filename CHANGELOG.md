@@ -1,3 +1,15 @@
+# [7.0.0](https://github.com/RimacTechnology/style-guide/compare/v6.1.1...v7.0.0) (2023-04-03)
+
+
+### Bug Fixes
+
+* **eslint:** wrong switch case indent ([9730a47](https://github.com/RimacTechnology/style-guide/commit/9730a47890de4d00495cc6e03b54799b88a43458))
+
+
+### BREAKING CHANGES
+
+* **eslint:** switch cases will not be correctly indented
+
 ## [6.1.1](https://github.com/RimacTechnology/style-guide/compare/v6.1.0...v6.1.1) (2023-03-06)
 
 # [6.1.0](https://github.com/RimacTechnology/style-guide/compare/v6.0.0...v6.1.0) (2023-03-01)
