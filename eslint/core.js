@@ -276,6 +276,7 @@ module.exports = {
             },
         ],
         'more/no-void-map': 'error',
+        'multiline-comment-style': ['error', 'starred-block'],
         'multiline-ternary': 'off',
         'newline-before-return': 'error',
         'newline-per-chained-call': [
