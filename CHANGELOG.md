@@ -1,3 +1,15 @@
+# [8.0.0](https://github.com/RimacTechnology/style-guide/compare/v7.0.0...v8.0.0) (2023-05-16)
+
+
+### Features
+
+* add multiline comment rule ([b9b7f06](https://github.com/RimacTechnology/style-guide/commit/b9b7f0625afe417054f2b2241f0d68b357135a02))
+
+
+### BREAKING CHANGES
+
+* multiline comments now have to be formatted a specific way
+
 # [7.0.0](https://github.com/RimacTechnology/style-guide/compare/v6.1.1...v7.0.0) (2023-04-03)
 
 
