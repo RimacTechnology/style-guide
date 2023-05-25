@@ -36,7 +36,6 @@ module.exports = {
         'jest/prefer-expect-resolves': 'error',
         'jest/prefer-hooks-in-order': 'error',
         'jest/prefer-hooks-on-top': 'error',
-        'jest/prefer-strict-equal': 'error',
         'jest/prefer-to-be': 'error',
         'jest/prefer-to-contain': 'error',
         'jest/prefer-to-have-length': 'error',
