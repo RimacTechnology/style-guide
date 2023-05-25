@@ -13,7 +13,7 @@ module.exports = {
         'jest-formatting/padding-around-test-blocks': 'error',
         'jest/consistent-test-it': 'error',
         'jest/expect-expect': 'error',
-        'jest/max-nested-describe': ['error', { max: 2 }],
+        'jest/max-nested-describe': ['error', { max: 3 }],
         'jest/no-commented-out-tests': 'error',
         'jest/no-conditional-expect': 'error',
         'jest/no-deprecated-functions': 'error',
