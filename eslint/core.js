@@ -406,7 +406,6 @@ module.exports = {
         'radix': 'error',
         'require-atomic-updates': 'error',
         'require-await': 'off',
-        'require-unicode-regexp': 'error',
         'rest-spread-spacing': [
             'error',
         ],
