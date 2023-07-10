@@ -1,3 +1,5 @@
+## [8.0.2](https://github.com/RimacTechnology/style-guide/compare/v8.0.1...v8.0.2) (2023-07-10)
+
 ## [8.0.1](https://github.com/RimacTechnology/style-guide/compare/v8.0.0...v8.0.1) (2023-05-25)
 
 # [8.0.0](https://github.com/RimacTechnology/style-guide/compare/v7.0.0...v8.0.0) (2023-05-16)
