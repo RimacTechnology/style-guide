@@ -470,7 +470,6 @@ module.exports = {
         'unicorn/no-unnecessary-await': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
         'unicorn/no-unreadable-iife': 'error',
-        'unicorn/no-unsafe-regex': 'error',
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/no-useless-promise-resolve-reject': 'error',
