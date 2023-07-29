@@ -1001,6 +1001,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint-community/eslint-plugin-eslint-comments@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:3.2.1"
+  dependencies:
+    escape-string-regexp: ^1.0.5
+    ignore: ^5.2.4
+  peerDependencies:
+    eslint: ">=4.19.1"
+  checksum: 10d2162d0821a08ba0d133b8d97758011bab8db42387754d12a1d9fafee93c7249e5c557a8910929f90488b7d0465d5264f04447351368831919c2c8854ad406
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -2010,6 +2022,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^17.6.7
     "@commitlint/config-conventional": ^17.6.7
+    "@eslint-community/eslint-plugin-eslint-comments": ^3.2.1
     "@next/eslint-plugin-next": ^13.4.12
     "@rimac-technology/eslint-plugin": ^1.4.2
     "@semantic-release/changelog": ^6.0.3

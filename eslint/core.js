@@ -48,9 +48,11 @@ module.exports = {
         'sonarjs',
         'etc',
         '@rimac-technology',
-        'eslint-comments',
+        '@eslint-community/eslint-comments',
     ],
     rules: {
+        '@eslint-community/eslint-comments/no-duplicate-disable': 'error',
+        '@eslint-community/eslint-comments/no-unused-disable': 'error',
         '@rimac-technology/class-element-sorting': 'error',
         '@rimac-technology/document-todos': [
             'error',
@@ -220,8 +222,6 @@ module.exports = {
         curly: 'error',
         'default-param-last': 'off',
         eqeqeq: 'error',
-        'eslint-comments/no-duplicate-disable': 'error',
-        'eslint-comments/no-unused-disable': 'error',
         'etc/no-assign-mutated-array': 'error',
         'etc/no-commented-out-code': 'error',
         'etc/no-const-enum': 'error',
