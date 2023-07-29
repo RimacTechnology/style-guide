@@ -9,8 +9,8 @@ const config = {
         'description-format': [
             'error',
             {
-                'requireCapitalFirstLetter': true,
-                'requireEndingPeriod': false,
+                requireCapitalFirstLetter: true,
+                requireEndingPeriod: false,
             },
         ],
         'description-type': 'error',

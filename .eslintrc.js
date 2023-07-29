@@ -22,8 +22,8 @@ module.exports = {
         project: './tsconfig.json',
     },
     settings: {
-        'next': {
-            'rootDir': './__tests__',
+        next: {
+            rootDir: './__tests__',
         },
     },
 }

@@ -35,22 +35,22 @@ module.exports = {
         'react/jsx-curly-brace-presence': [
             'error',
             {
-                'children': 'never',
-                'props': 'never',
+                children: 'never',
+                props: 'never',
             },
         ],
         'react/jsx-curly-newline': [
             'error',
             {
-                'multiline': 'consistent',
-                'singleline': 'consistent',
+                multiline: 'consistent',
+                singleline: 'consistent',
             },
         ],
         'react/jsx-curly-spacing': [
             'error',
             {
-                'children': true,
-                'when': 'never',
+                children: true,
+                when: 'never',
             },
         ],
         'react/jsx-equals-spacing': 'error',
@@ -62,7 +62,7 @@ module.exports = {
             'error',
             constants.INDENT_AMOUNT,
             {
-                'indentLogicalExpressions': true,
+                indentLogicalExpressions: true,
             },
         ],
         'react/jsx-key': 'error',
@@ -70,44 +70,44 @@ module.exports = {
         'react/jsx-newline': [
             'error',
             {
-                'prevent': true,
+                prevent: true,
             },
         ],
         'react/jsx-no-comment-textnodes': 'error',
         'react/jsx-no-duplicate-props': 'error',
         'react/jsx-no-leaked-render': [
             'off',
-            { 'validStrategies': ['ternary'] },
+            { validStrategies: ['ternary'] },
         ],
-        'react/jsx-no-useless-fragment': ['error', { 'allowExpressions': true }],
+        'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
         'react/jsx-one-expression-per-line': 'error',
         'react/jsx-pascal-case': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
         'react/jsx-tag-spacing': [
             'error',
             {
-                'afterOpening': 'never',
-                'beforeClosing': 'never',
-                'beforeSelfClosing': 'always',
-                'closingSlash': 'never',
+                afterOpening: 'never',
+                beforeClosing: 'never',
+                beforeSelfClosing: 'always',
+                closingSlash: 'never',
             },
         ],
         'react/jsx-wrap-multilines': [
             'error',
             {
-                'arrow': 'parens-new-line',
-                'assignment': 'parens-new-line',
-                'condition': 'parens-new-line',
-                'declaration': 'parens-new-line',
-                'logical': 'parens-new-line',
-                'prop': 'parens-new-line',
-                'return': 'parens-new-line',
+                arrow: 'parens-new-line',
+                assignment: 'parens-new-line',
+                condition: 'parens-new-line',
+                declaration: 'parens-new-line',
+                logical: 'parens-new-line',
+                prop: 'parens-new-line',
+                return: 'parens-new-line',
             },
         ],
         'react/no-unknown-property': [
             'error',
             {
-                'ignore': [
+                ignore: [
                     'position',
                     'material',
                     'geometry',
@@ -129,15 +129,15 @@ module.exports = {
         'react/self-closing-comp': [
             'error',
             {
-                'component': true,
-                'html': true,
+                component: true,
+                html: true,
             },
         ],
         'react/sort-default-props': 'error',
     },
-    'settings': {
-        'react': {
-            'version': 'detect',
+    settings: {
+        react: {
+            version: 'detect',
         },
     },
 }

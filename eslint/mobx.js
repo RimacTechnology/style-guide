@@ -1,6 +1,6 @@
 module.exports = {
-    'plugins': ['mobx'],
-    'rules': {
+    plugins: ['mobx'],
+    rules: {
         'mobx/exhaustive-make-observable': 'error',
         'mobx/missing-make-observable': 'error',
         'mobx/missing-observer': 'error',

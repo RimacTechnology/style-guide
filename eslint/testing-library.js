@@ -1,15 +1,15 @@
 module.exports = {
-    'plugins': [
+    plugins: [
         'testing-library',
     ],
-    'rules': {
+    rules: {
         'testing-library/await-async-query': 'error',
         'testing-library/await-async-utils': 'error',
         'testing-library/await-fire-event': 'error',
         'testing-library/consistent-data-testid': [
             'error',
             {
-                'testIdPattern': '^testId(__[A-Z]*)?$',
+                testIdPattern: '^testId(__[A-Z]*)?$',
             },
         ],
         'testing-library/no-await-sync-events': 'error',

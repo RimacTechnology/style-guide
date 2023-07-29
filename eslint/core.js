@@ -2,8 +2,8 @@ const constants = require('../shared/constants')
 
 module.exports = {
     env: {
-        'es6': true,
-        'node': true,
+        es6: true,
+        node: true,
     },
     globals: {
         Atomics: 'readonly',
@@ -63,11 +63,11 @@ module.exports = {
         '@typescript-eslint/comma-dangle': [
             'error',
             {
-                'arrays': 'always-multiline',
-                'exports': 'always',
-                'functions': 'only-multiline',
-                'imports': 'always-multiline',
-                'objects': 'always-multiline',
+                arrays: 'always-multiline',
+                exports: 'always',
+                functions: 'only-multiline',
+                imports: 'always-multiline',
+                objects: 'always-multiline',
             },
         ],
         '@typescript-eslint/comma-spacing': 'error',
@@ -79,7 +79,7 @@ module.exports = {
         '@typescript-eslint/consistent-type-imports': [
             'error',
             {
-                'prefer': 'type-imports',
+                prefer: 'type-imports',
             },
         ],
         '@typescript-eslint/default-param-last': 'error',
@@ -90,13 +90,13 @@ module.exports = {
         '@typescript-eslint/member-delimiter-style': [
             'error',
             {
-                'multiline': {
-                    'delimiter': 'none',
-                    'requireLast': false,
+                multiline: {
+                    delimiter: 'none',
+                    requireLast: false,
                 },
-                'singleline': {
-                    'delimiter': 'comma',
-                    'requireLast': false,
+                singleline: {
+                    delimiter: 'comma',
+                    requireLast: false,
                 },
             },
         ],
@@ -123,7 +123,7 @@ module.exports = {
         '@typescript-eslint/no-empty-interface': [
             'error',
             {
-                'allowSingleExtends': true,
+                allowSingleExtends: true,
             },
         ],
         '@typescript-eslint/no-explicit-any': 'warn',
@@ -146,8 +146,8 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
-                'args': 'after-used',
-                'ignoreRestSiblings': true,
+                args: 'after-used',
+                ignoreRestSiblings: true,
             },
         ],
         '@typescript-eslint/no-use-before-define': 'warn',
@@ -168,7 +168,7 @@ module.exports = {
         '@typescript-eslint/promise-function-async': [
             'error',
             {
-                'allowedPromiseNames': ['Thenable'],
+                allowedPromiseNames: ['Thenable'],
             },
         ],
         '@typescript-eslint/quotes': [
@@ -180,7 +180,7 @@ module.exports = {
         '@typescript-eslint/restrict-plus-operands': [
             'warn',
             {
-                'skipCompoundAssignments': true,
+                skipCompoundAssignments: true,
             },
         ],
         '@typescript-eslint/return-await': 'error',
@@ -190,9 +190,9 @@ module.exports = {
         ],
         '@typescript-eslint/space-before-blocks': 'error',
         '@typescript-eslint/space-before-function-paren': ['error', {
-            'anonymous': 'never',
-            'asyncArrow': 'always',
-            'named': 'never',
+            anonymous: 'never',
+            asyncArrow: 'always',
+            named: 'never',
         }],
         '@typescript-eslint/space-infix-ops': 'error',
         '@typescript-eslint/switch-exhaustiveness-check': 'warn',
@@ -209,17 +209,17 @@ module.exports = {
         'arrow-spacing': [
             'error',
             {
-                'after': true,
-                'before': true,
+                after: true,
+                before: true,
             },
         ],
         'brace-style': 'off',
         'comma-dangle': 'off',
         'comma-spacing': 'off',
         'computed-property-spacing': 'error',
-        'curly': 'error',
+        curly: 'error',
         'default-param-last': 'off',
-        'eqeqeq': 'error',
+        eqeqeq: 'error',
         'eslint-comments/no-duplicate-disable': 'error',
         'eslint-comments/no-unused-disable': 'error',
         'etc/no-assign-mutated-array': 'error',
@@ -246,17 +246,17 @@ module.exports = {
         'import/no-useless-path-segments': [
             'error',
             {
-                'noUselessIndex': true,
+                noUselessIndex: true,
             },
         ],
         'import/order': [
             'error',
             {
-                'alphabetize': {
-                    'caseInsensitive': true,
-                    'order': 'asc',
+                alphabetize: {
+                    caseInsensitive: true,
+                    order: 'asc',
                 },
-                'groups': [
+                groups: [
                     'builtin',
                     'external',
                     'parent',
@@ -266,10 +266,10 @@ module.exports = {
                 'newlines-between': 'always',
             },
         ],
-        'indent': [
+        indent: [
             'error',
             constants.INDENT_AMOUNT,
-            { 'SwitchCase': 1 },
+            { SwitchCase: 1 },
         ],
         'init-declarations': 'off',
         'jsx-quotes': [
@@ -335,9 +335,9 @@ module.exports = {
         'no-multiple-empty-lines': [
             'error',
             {
-                'max': 1,
-                'maxBOF': 0,
-                'maxEOF': 1,
+                max: 1,
+                maxBOF: 0,
+                maxEOF: 1,
             },
         ],
         'no-nested-ternary': 'off',
@@ -373,7 +373,7 @@ module.exports = {
         'object-curly-newline': [
             'error',
             {
-                'ImportDeclaration': {
+                ImportDeclaration: {
                     minProperties: 2,
                     multiline: true,
                 },
@@ -385,28 +385,31 @@ module.exports = {
         'padding-line-between-statements': [
             'error',
             {
-                'blankLine': 'always',
-                'next': 'block',
-                'prev': '*',
+                blankLine: 'always',
+                next: 'block',
+                prev: '*',
             },
             {
-                'blankLine': 'always',
-                'next': '*',
-                'prev': 'block',
+                blankLine: 'always',
+                next: '*',
+                prev: 'block',
             },
             {
-                'blankLine': 'always',
-                'next': 'block-like',
-                'prev': '*',
+                blankLine: 'always',
+                next: 'block-like',
+                prev: '*',
             },
             {
-                'blankLine': 'always',
-                'next': '*',
-                'prev': 'block-like',
+                blankLine: 'always',
+                next: '*',
+                prev: 'block-like',
             },
         ],
         'prefer-promise-reject-errors': 'error',
-        'prefer-regex-literals': ['error', { 'disallowRedundantWrapping': true }],
+        'prefer-regex-literals': [
+            'error',
+            { disallowRedundantWrapping: true },
+        ],
         'prefer-template': 'error',
         'promise/catch-or-return': 'error',
         'promise/no-multiple-resolved': 'error',
@@ -414,14 +417,18 @@ module.exports = {
         'promise/no-return-wrap': 'error',
         'promise/param-names': 'error',
         'promise/valid-params': 'error',
-        'quotes': 'off',
-        'radix': 'error',
+        'quote-props': [
+            'error',
+            'as-needed',
+        ],
+        quotes: 'off',
+        radix: 'error',
         'require-atomic-updates': 'error',
         'require-await': 'off',
         'rest-spread-spacing': [
             'error',
         ],
-        'semi': 'off',
+        semi: 'off',
         'simple-import-sort/exports': 'error',
         'sonarjs/cognitive-complexity': ['warn', constants.COGNITIVE_COMPLEXIT],
         'sonarjs/no-all-duplicated-branches': 'error',
@@ -449,9 +456,9 @@ module.exports = {
         'sort-imports': [
             'error',
             {
-                'ignoreCase': true,
-                'ignoreDeclarationSort': true,
-                'ignoreMemberSort': false,
+                ignoreCase: true,
+                ignoreDeclarationSort: true,
+                ignoreMemberSort: false,
             },
         ],
         'sort-keys-fix/sort-keys-fix': 'error',
@@ -512,26 +519,26 @@ module.exports = {
         'unicorn/prevent-abbreviations': [
             'error',
             {
-                'allowList': {
-                    'Arg': true,
-                    'Args': true,
-                    'Param': true,
-                    'Params': true,
-                    'Prev': true,
-                    'Prop': true,
-                    'Props': true,
-                    'Ref': true,
-                    'Refs': true,
-                    'arg': true,
-                    'args': true,
-                    'env': true,
-                    'param': true,
-                    'params': true,
-                    'prev': true,
-                    'prop': true,
-                    'props': true,
-                    'ref': true,
-                    'refs': true,
+                allowList: {
+                    Arg: true,
+                    Args: true,
+                    Param: true,
+                    Params: true,
+                    Prev: true,
+                    Prop: true,
+                    Props: true,
+                    Ref: true,
+                    Refs: true,
+                    arg: true,
+                    args: true,
+                    env: true,
+                    param: true,
+                    params: true,
+                    prev: true,
+                    prop: true,
+                    props: true,
+                    ref: true,
+                    refs: true,
                 },
             },
         ],
@@ -539,7 +546,7 @@ module.exports = {
         'unicorn/template-indent': [
             'error',
             {
-                'indent': constants.INDENT_AMOUNT,
+                indent: constants.INDENT_AMOUNT,
             },
         ],
         'unicorn/throw-new-error': 'error',
@@ -551,6 +558,6 @@ module.exports = {
         'workspaces/require-dependency': 'error',
         'wrap-iife': 'error',
         'wrap-regex': 'error',
-        'yoda': 'error',
+        yoda: 'error',
     },
 }
