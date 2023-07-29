@@ -180,7 +180,7 @@ module.exports = {
         '@typescript-eslint/restrict-plus-operands': [
             'warn',
             {
-                'checkCompoundAssignments': true,
+                'skipCompoundAssignments': true,
             },
         ],
         '@typescript-eslint/return-await': 'error',
@@ -188,7 +188,6 @@ module.exports = {
             'error',
             'never',
         ],
-        '@typescript-eslint/sort-type-union-intersection-members': 'error',
         '@typescript-eslint/space-before-blocks': 'error',
         '@typescript-eslint/space-before-function-paren': ['error', {
             'anonymous': 'never',

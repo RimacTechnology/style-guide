@@ -46,10 +46,10 @@
         "npm/chalk": "^4.1.2"
     },
     "dependencies": {
-        "@next/eslint-plugin-next": "^13.2.3",
+        "@next/eslint-plugin-next": "^13.4.12",
         "@rimac-technology/eslint-plugin": "^1.4.2",
-        "@typescript-eslint/eslint-plugin": "^5.54.0",
-        "@typescript-eslint/parser": "^5.54.0",
+        "@typescript-eslint/eslint-plugin": "^6.2.0",
+        "@typescript-eslint/parser": "^6.2.0",
         "eslint-config-next": "^13.2.3",
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-etc": "^2.0.2",
