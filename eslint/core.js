@@ -104,6 +104,19 @@ module.exports = {
             'error',
             'method',
         ],
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                format: ['PascalCase'],
+                selector: 'typeAlias',
+                suffix: ['Type'],
+            },
+            {
+                format: ['PascalCase'],
+                prefix: ['T'],
+                selector: 'typeParameter',
+            },
+        ],
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
         '@typescript-eslint/no-empty-function': 'warn',
