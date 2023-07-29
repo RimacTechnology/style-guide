@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "jsx": "react",
         "target": "es2016",
         "module": "commonjs",
         "esModuleInterop": true,
@@ -7,5 +8,5 @@
         "strict": true,
         "skipLibCheck": true
     },
-    "include": ["./**/*.js", "./**/*.ts", ".*.js", ".*.ts"]
+    "include": ["./**/*.js", "./**/*.ts", ".*.js", ".*.ts", "./**/*.tsx"]
 }

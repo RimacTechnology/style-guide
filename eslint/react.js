@@ -56,7 +56,7 @@ module.exports = {
         'react/jsx-equals-spacing': 'error',
         'react/jsx-first-prop-new-line': [
             'error',
-            'multiline',
+            'multiprop',
         ],
         'react/jsx-indent': [
             'error',
