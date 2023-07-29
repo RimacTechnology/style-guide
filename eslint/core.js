@@ -53,6 +53,7 @@ module.exports = {
     rules: {
         '@eslint-community/eslint-comments/no-duplicate-disable': 'error',
         '@eslint-community/eslint-comments/no-unused-disable': 'error',
+        '@eslint-community/eslint-comments/require-description': 'error',
         '@rimac-technology/class-element-sorting': 'error',
         '@rimac-technology/document-todos': [
             'error',
