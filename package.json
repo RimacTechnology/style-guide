@@ -22,7 +22,7 @@
         "lint": "yarn lint:source & yarn lint:config & yarn lint:package-json",
         "lint:config": "prettier --log-level warn --no-editorconfig --no-error-on-unmatched-pattern --write \"./**/*{yaml,yml,json,md,prisma,graphql,css}\" ",
         "lint:package-json": "npmPkgJsonLint --configFile ./.packagerc.js .",
-        "lint:source": "eslint './**/*.{js,ts}' --quiet --fix --cache --cache-strategy content --cache-location '.eslintcache/'",
+        "lint:source": "eslint './**/*.{js,ts}' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'",
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
         "release": "semantic-release",
