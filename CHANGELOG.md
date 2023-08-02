@@ -1,3 +1,10 @@
+# [8.1.0](https://github.com/RimacTechnology/style-guide/compare/v8.0.3...v8.1.0) (2023-08-02)
+
+
+### Features
+
+* **package-json:** remove hardcoded rimac author, add author as required ([9932a61](https://github.com/RimacTechnology/style-guide/commit/9932a61768cf5e03d16deae8bb2bf330c7316712))
+
 ## [8.0.3](https://github.com/RimacTechnology/style-guide/compare/v8.0.2...v8.0.3) (2023-07-18)
 
 ## [8.0.2](https://github.com/RimacTechnology/style-guide/compare/v8.0.1...v8.0.2) (2023-07-10)
