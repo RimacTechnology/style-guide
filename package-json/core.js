@@ -51,16 +51,11 @@ const config = {
         'preferGlobal-type': 'error',
         'private-type': 'error',
         'repository-type': 'error',
+        'require-author': 'error',
         'require-description': 'error',
         'require-license': 'error',
         'require-name': 'error',
         'scripts-type': 'error',
-        'valid-values-author': [
-            'error',
-            [
-                'Rimac Technology d.o.o.',
-            ],
-        ],
         'valid-values-license': [
             'error',
             [

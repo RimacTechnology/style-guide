@@ -2,6 +2,9 @@
     "name": "@rimac-technology/test",
     "version": "0.0.0",
     "private": false,
+    "author": {
+        "name": "Test Author"
+    },
     "description": "Test config",
     "license": "MIT"
 }
