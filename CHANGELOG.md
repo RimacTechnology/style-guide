@@ -1,3 +1,30 @@
+# [9.0.0](https://github.com/RimacTechnology/style-guide/compare/v8.1.0...v9.0.0) (2023-08-24)
+
+
+### Bug Fixes
+
+* dont autofix eslint errors ([07e8c1f](https://github.com/RimacTechnology/style-guide/commit/07e8c1f0f17606370678f36dff59d3850743d45e))
+
+
+### Code Refactoring
+
+* change `jsx-first-prop-new-line` default to `multiprop` ([722b41b](https://github.com/RimacTechnology/style-guide/commit/722b41b6470baf91f0421d9eaf62337f9828b08c))
+
+
+### Features
+
+* add `@eslint-community/eslint-comments/require-description` ([129c836](https://github.com/RimacTechnology/style-guide/commit/129c8365c4615bae4b45d40cce0e6077883ef481))
+* add `@typescript-eslint/naming-convention` ([b72b021](https://github.com/RimacTechnology/style-guide/commit/b72b021b41e7befdc5a17cad2cba74c244e1dee5))
+* **eslint:** add `quote-props` ([e0397ec](https://github.com/RimacTechnology/style-guide/commit/e0397ec6699108c05a8ec0f2b250f0bc8f412818))
+
+
+### BREAKING CHANGES
+
+* all eslint disable directives now have to have description/explanation
+* components with only one prop need to be inline
+* **eslint:** quotes around properties will be removed unless needed
+* types have to have `Type` suffix and generics have to have `T` prefix
+
 # [8.1.0](https://github.com/RimacTechnology/style-guide/compare/v8.0.3...v8.1.0) (2023-08-02)
 
 
