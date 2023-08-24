@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
+        "jsx": "react",
         "target": "es2016",
         "module": "commonjs",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "skipLibCheck": true
-    }
+    },
+    "include": ["./**/*.js", "./**/*.ts", ".*.js", ".*.ts", "./**/*.tsx"]
 }

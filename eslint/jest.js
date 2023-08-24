@@ -1,9 +1,9 @@
 module.exports = {
-    'plugins': [
+    plugins: [
         'jest',
         'jest-formatting',
     ],
-    'rules': {
+    rules: {
         'jest-formatting/padding-around-after-all-blocks': 'error',
         'jest-formatting/padding-around-after-each-blocks': 'error',
         'jest-formatting/padding-around-before-all-blocks': 'error',

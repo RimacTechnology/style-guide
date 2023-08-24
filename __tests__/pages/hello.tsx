@@ -1,5 +1,17 @@
+import React from "react"
+
 export const Component = () => {
     return (
-        <p>Hi</p>
+        <div>
+            <p about="hi">
+                Hi
+            </p>
+            <p 
+                about="Hi" 
+                accessKey="Hi"
+            >
+                Hi
+            </p>
+        </div>
     )
 }

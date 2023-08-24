@@ -1,5 +1,4 @@
 module.exports = {
-    extends: ['next/core-web-vitals'],
     plugins: ['@next/eslint-plugin-next'],
     rules: {
         '@next/next/google-font-display': 'error',
