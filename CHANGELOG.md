@@ -1,3 +1,10 @@
+# [9.1.0](https://github.com/RimacTechnology/style-guide/compare/v9.0.0...v9.1.0) (2023-09-02)
+
+
+### Features
+
+* **eslint:** allow `Props` as a suffix for types ([55a3c89](https://github.com/RimacTechnology/style-guide/commit/55a3c896c93ff41f2fbf78428fdefccabe480a55))
+
 # [9.0.0](https://github.com/RimacTechnology/style-guide/compare/v8.1.0...v9.0.0) (2023-08-24)
 
 
