@@ -112,7 +112,7 @@ module.exports = {
             {
                 format: ['PascalCase'],
                 selector: 'typeAlias',
-                suffix: ['Type'],
+                suffix: ['Type', 'Props'],
             },
             {
                 format: ['PascalCase'],
