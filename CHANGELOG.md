@@ -1,3 +1,5 @@
+## [9.1.1](https://github.com/RimacTechnology/style-guide/compare/v9.1.0...v9.1.1) (2023-09-14)
+
 # [9.1.0](https://github.com/RimacTechnology/style-guide/compare/v9.0.0...v9.1.0) (2023-09-02)
 
 
