@@ -1,3 +1,11 @@
+## [9.1.3](https://github.com/RimacTechnology/style-guide/compare/v9.1.2...v9.1.3) (2023-10-22)
+
+
+### Bug Fixes
+
+* proper peer dependencies notation ([ecfb0a2](https://github.com/RimacTechnology/style-guide/commit/ecfb0a238df47582eab4f9ec5ab24128c3b265fb))
+* update lock file ([578147a](https://github.com/RimacTechnology/style-guide/commit/578147aa4216f6fb8e61cdaf39016f8dd3da8c76))
+
 ## [9.1.2](https://github.com/RimacTechnology/style-guide/compare/v9.1.1...v9.1.2) (2023-10-20)
 
 ## [9.1.1](https://github.com/RimacTechnology/style-guide/compare/v9.1.0...v9.1.1) (2023-09-14)
