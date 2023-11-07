@@ -1991,11 +1991,7 @@ __metadata:
     "@next/eslint-plugin-next": ^13.4.19
     "@rimac-technology/eslint-plugin": ^1.5.0
     "@semantic-release/changelog": ^6.0.3
-    "@semantic-release/commit-analyzer": ^11.1.0
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^9.2.1
-    "@semantic-release/npm": ^11.0.1
-    "@semantic-release/release-notes-generator": ^12.1.0
     "@types/react": ^18.2.36
     "@types/react-dom": ^18.2.14
     "@typescript-eslint/eslint-plugin": ^6.4.1
@@ -2073,7 +2069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/commit-analyzer@npm:^11.0.0, @semantic-release/commit-analyzer@npm:^11.1.0":
+"@semantic-release/commit-analyzer@npm:^11.0.0":
   version: 11.1.0
   resolution: "@semantic-release/commit-analyzer@npm:11.1.0"
   dependencies:
@@ -2122,7 +2118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^9.0.0, @semantic-release/github@npm:^9.2.1":
+"@semantic-release/github@npm:^9.0.0":
   version: 9.2.1
   resolution: "@semantic-release/github@npm:9.2.1"
   dependencies:
@@ -2148,7 +2144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^11.0.0, @semantic-release/npm@npm:^11.0.1":
+"@semantic-release/npm@npm:^11.0.0":
   version: 11.0.1
   resolution: "@semantic-release/npm@npm:11.0.1"
   dependencies:
@@ -2171,7 +2167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^12.0.0, @semantic-release/release-notes-generator@npm:^12.1.0":
+"@semantic-release/release-notes-generator@npm:^12.0.0":
   version: 12.1.0
   resolution: "@semantic-release/release-notes-generator@npm:12.1.0"
   dependencies:
