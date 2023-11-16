@@ -1,3 +1,10 @@
+# [9.2.0](https://github.com/RimacTechnology/style-guide/compare/v9.1.3...v9.2.0) (2023-11-16)
+
+
+### Features
+
+* update style plugins ([4d276b3](https://github.com/RimacTechnology/style-guide/commit/4d276b3fd7c2147c8aabefd0a08dab698d68b8fb))
+
 ## [9.1.3](https://github.com/RimacTechnology/style-guide/compare/v9.1.2...v9.1.3) (2023-10-22)
 
 
