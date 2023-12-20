@@ -79,8 +79,6 @@
         "@commitlint/config-conventional": "^18.1.0",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
-        "@types/react": "^18.2.36",
-        "@types/react-dom": "^18.2.14",
         "commitizen": "^4.3.0",
         "conventional-changelog-conventionalcommits": "^7.0.2",
         "eslint": "^8.53.0",
@@ -89,8 +87,6 @@
         "npm-package-json-lint": "^7.1.0",
         "pinst": "^3.0.0",
         "prettier": "^3.0.3",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
         "semantic-release": "^19.0.5",
         "stylelint": "^15.2.0",
         "typescript": "^5.2.2"
