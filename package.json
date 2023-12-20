@@ -54,7 +54,7 @@
         "@typescript-eslint/parser": "^6.15.0",
         "eslint-config-next": "^14.0.4",
         "eslint-plugin-etc": "^2.0.3",
-        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-jest": "^27.6.0",
         "eslint-plugin-jest-formatting": "^3.1.0",
         "eslint-plugin-mobx": "^0.0.9",
