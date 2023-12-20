@@ -47,7 +47,7 @@
     },
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.1.0",
-        "@next/eslint-plugin-next": "^14.0.1",
+        "@next/eslint-plugin-next": "^14.0.4",
         "@rimac-technology/eslint-plugin": "^1.5.0",
         "@typescript-eslint/eslint-plugin": "^6.10.0",
         "@typescript-eslint/parser": "^6.10.0",
