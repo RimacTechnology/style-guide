@@ -156,6 +156,7 @@ module.exports = {
         ],
         '@typescript-eslint/no-use-before-define': 'warn',
         '@typescript-eslint/no-useless-empty-export': 'error',
+        '@typescript-eslint/no-useless-template-literals': 'error',
         '@typescript-eslint/object-curly-spacing': [
             'error',
             'always',
