@@ -114,6 +114,7 @@
     },
     "packageManager": "yarn@4.0.2",
     "engines": {
+        "node": ">=20",
         "yarn": ">=4"
     },
     "publishConfig": {
