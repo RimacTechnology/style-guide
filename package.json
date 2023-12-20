@@ -111,7 +111,7 @@
             "optional": true
         }
     },
-    "packageManager": "yarn@3.2.3",
+    "packageManager": "yarn@4.0.2",
     "engines": {
         "yarn": ">=3"
     },
