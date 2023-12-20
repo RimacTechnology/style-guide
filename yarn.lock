@@ -1980,7 +1980,7 @@ __metadata:
     eslint-plugin-typescript-sort-keys: "npm:^3.1.0"
     eslint-plugin-unicorn: "npm:^49.0.0"
     eslint-plugin-unused-imports: "npm:^3.0.0"
-    eslint-plugin-workspaces: "npm:^0.9.0"
+    eslint-plugin-workspaces: "npm:^0.10.0"
     husky: "npm:^8.0.3"
     jest: "npm:^29.7.0"
     npm-package-json-lint: "npm:^7.1.0"
@@ -5474,12 +5474,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-workspaces@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "eslint-plugin-workspaces@npm:0.9.0"
+"eslint-plugin-workspaces@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "eslint-plugin-workspaces@npm:0.10.0"
   dependencies:
-    find-workspaces: "npm:^0.2.0"
-  checksum: 43ffb3913828b79fc312af9f6e61391956bfbd3822b395ca984282d08d28d57a258e71d10edc28cb3516916e41b65e90053e963f8597eb578e0d3787741760f0
+    find-workspaces: "npm:^0.3.0"
+  checksum: efb6b8535b0c5b09d1b31107eb3967f02a61bb863c157240cd54ed7baf101b6efdc9df972804034e4e66a3181123033fa812251f1652060dbf72b643218703f6
   languageName: node
   linkType: hard
 
@@ -5783,7 +5783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12":
+"fast-glob@npm:^3.2.11":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -5809,7 +5809,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.3.1":
+"fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -5961,14 +5961,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-workspaces@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "find-workspaces@npm:0.2.0"
+"find-workspaces@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "find-workspaces@npm:0.3.0"
   dependencies:
-    fast-glob: "npm:^3.2.12"
+    fast-glob: "npm:^3.3.2"
     pkg-types: "npm:^1.0.3"
-    yaml: "npm:^2.3.1"
-  checksum: a21066601966704788c9df7b86c42e6595d89ef2d40c51d33d8c2e66c2fc2a43e0c9de649a0eaff080bf3857e8c88d3fd976ef9a043edd5a89d336bfa318378b
+    yaml: "npm:^2.3.4"
+  checksum: 59318a0ca008f6ceaa0011ca607e7feb7c02d50345816ca26d78da858f9e84ac3362b0f288f56c4868ced377f65fda70fb15667d4ff4e215ba62ec92507f9091
   languageName: node
   linkType: hard
 
@@ -13061,10 +13061,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "yaml@npm:2.3.1"
-  checksum: 66501d597e43766eb94dc175d28ec8b2c63087d6a78783e59b4218eee32b9172740f9f27d54b7bc0ca8af61422f7134929f9974faeaac99d583787e793852fd2
+"yaml@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "yaml@npm:2.3.4"
+  checksum: f8207ce43065a22268a2806ea6a0fa3974c6fde92b4b2fa0082357e487bc333e85dc518910007e7ac001b532c7c84bd3eccb6c7757e94182b564028b0008f44b
   languageName: node
   linkType: hard
 
