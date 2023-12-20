@@ -9,6 +9,7 @@ module.exports = {
                 './eslint/core.js',
                 './eslint/jest.js',
                 './eslint/mobx.js',
+                './eslint/node.js',
                 './eslint/react.js',
                 './eslint/next.js',
                 './eslint/type-graphql.js',
