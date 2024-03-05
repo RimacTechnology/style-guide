@@ -1,3 +1,11 @@
+# [9.3.0-beta.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.1...v9.3.0-beta.1) (2024-03-05)
+
+
+### Features
+
+* disable husky in actions ([b1c937f](https://github.com/RimacTechnology/style-guide/commit/b1c937fe7916b061b37e57536b6227653355ab54))
+* update dependencies ([bfa29d6](https://github.com/RimacTechnology/style-guide/commit/bfa29d6d80630ab5271d4b68549f5402b0cfe783))
+
 ## [9.2.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.0...v9.2.1) (2023-12-04)
 
 # [9.2.0](https://github.com/RimacTechnology/style-guide/compare/v9.1.3...v9.2.0) (2023-11-16)
