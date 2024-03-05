@@ -1,6 +1,6 @@
 {
     "name": "@rimac-technology/style-guide",
-    "version": "9.2.1",
+    "version": "9.3.0-beta.3",
     "description": "Shareable style guide",
     "bugs": {
         "url": "https://github.com/RimacTechnology/style-guide/issues"
@@ -18,19 +18,19 @@
     ],
     "scripts": {
         "cm": "cz",
-        "postinstall": "husky install",
+        "postinstall": "husky",
         "lint": "yarn lint:source & yarn lint:config & yarn lint:package-json",
         "lint:config": "prettier --log-level warn --no-editorconfig --no-error-on-unmatched-pattern --write \"./**/*{yaml,yml,json,md,prisma,graphql,css}\" ",
         "lint:package-json": "npmPkgJsonLint --configFile ./.packagerc.js .",
-        "lint:source": "eslint './**/*.{js,ts}' --quiet --cache --cache-strategy content --cache-location '.eslintcache/'",
+        "lint:source": "eslint './**/*.{js,ts}' --quiet --cache --cache-strategy content --cache-location 'node_modules/.cache/eslint/'",
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
         "release": "semantic-release",
         "test": "yarn test:eslint && yarn test:prettier && yarn test:package-json && yarn test:stylelint",
         "test:eslint": "eslint ./__tests__/**/*.{ts,tsx}",
         "test:package-json": "npmPkgJsonLint --configFile ./.packagerc.js ./__tests__/",
-        "test:prettier": "prettier --log-level warn --check ./__tests__/prettier.json",
-        "test:stylelint": "stylelint --cache --config='./stylelint/index.js' './**/*.css'"
+        "test:prettier": "prettier --log-level warn --cache --check ./__tests__/prettier.json",
+        "test:stylelint": "stylelint --cache --cache-location node_modules/.cache/stylelint/ --config='./stylelint/index.js' './**/*.css'"
     },
     "commitlint": {
         "extends": [
@@ -42,64 +42,59 @@
             "path": "cz-conventional-changelog"
         }
     },
-    "resolutions": {
-        "npm/chalk": "^4.1.2"
-    },
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.1.0",
-        "@next/eslint-plugin-next": "^14.0.1",
+        "@next/eslint-plugin-next": "^14.1.2",
         "@rimac-technology/eslint-plugin": "^1.5.0",
-        "@typescript-eslint/eslint-plugin": "^6.10.0",
-        "@typescript-eslint/parser": "^6.10.0",
-        "eslint-config-next": "^14.0.1",
-        "eslint-plugin-etc": "^2.0.3",
-        "eslint-plugin-import": "^2.29.0",
-        "eslint-plugin-jest": "^27.6.0",
+        "@typescript-eslint/eslint-plugin": "^7.1.1",
+        "@typescript-eslint/parser": "^7.1.1",
+        "eslint-config-next": "^14.1.2",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jest": "^27.9.0",
         "eslint-plugin-jest-formatting": "^3.1.0",
         "eslint-plugin-mobx": "^0.0.9",
         "eslint-plugin-more": "^1.0.5",
         "eslint-plugin-promise": "^6.1.1",
-        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react": "^7.34.0",
         "eslint-plugin-react-hooks": "^4.6.0",
-        "eslint-plugin-simple-import-sort": "^10.0.0",
-        "eslint-plugin-sonarjs": "^0.23.0",
+        "eslint-plugin-simple-import-sort": "^12.0.0",
+        "eslint-plugin-sonarjs": "^0.24.0",
         "eslint-plugin-sort-destructure-keys": "^1.5.0",
         "eslint-plugin-sort-keys-fix": "^1.1.2",
-        "eslint-plugin-type-graphql": "^1.0.0",
-        "eslint-plugin-typescript-sort-keys": "^3.1.0",
-        "eslint-plugin-unicorn": "^49.0.0",
-        "eslint-plugin-unused-imports": "^3.0.0",
-        "eslint-plugin-workspaces": "^0.9.0",
-        "prettier-plugin-packagejson": "^2.4.6",
+        "eslint-plugin-typescript-sort-keys": "^3.2.0",
+        "eslint-plugin-unicorn": "^51.0.1",
+        "eslint-plugin-unused-imports": "^3.1.0",
+        "eslint-plugin-workspaces": "^0.10.0",
+        "prettier-plugin-packagejson": "^2.4.12",
         "prettier-plugin-prisma": "^5.0.0",
-        "stylelint-order": "^6.0.3"
+        "stylelint-order": "^6.0.4"
     },
     "devDependencies": {
-        "@commitlint/cli": "^18.2.0",
-        "@commitlint/config-conventional": "^18.1.0",
+        "@commitlint/cli": "^18.6.1",
+        "@commitlint/config-conventional": "^18.6.2",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
-        "@types/react": "^18.2.36",
-        "@types/react-dom": "^18.2.14",
+        "@types/react": "^18.2.63",
+        "@types/react-dom": "^18.2.20",
         "commitizen": "^4.3.0",
         "conventional-changelog-conventionalcommits": "^7.0.2",
-        "eslint": "^8.53.0",
-        "husky": "^8.0.3",
+        "eslint": "^8.57.0",
+        "husky": "^9.0.11",
         "jest": "^29.7.0",
         "npm-package-json-lint": "^7.1.0",
         "pinst": "^3.0.0",
-        "prettier": "^3.0.3",
+        "prettier": "^3.2.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "semantic-release": "^19.0.5",
-        "stylelint": "^15.2.0",
-        "typescript": "^5.2.2"
+        "semantic-release": "^23.0.2",
+        "stylelint": "^16.2.1",
+        "typescript": "^5.3.3"
     },
     "peerDependencies": {
         "eslint": ">=8.27",
         "npm-package-json-lint": "7",
         "prettier": "3",
-        "stylelint": "^14"
+        "stylelint": "^16"
     },
     "peerDependenciesMeta": {
         "eslint": {
@@ -115,7 +110,7 @@
             "optional": true
         }
     },
-    "packageManager": "yarn@3.2.3",
+    "packageManager": "yarn@4.1.1",
     "engines": {
         "yarn": ">=3"
     },

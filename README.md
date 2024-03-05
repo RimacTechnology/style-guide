@@ -97,7 +97,6 @@ module.exports = {
             // Other config stuff
         }
         ```
-    - `@rimac-technology/style-guide/eslint/type-graphql`
     - Example configuration with overrides for only `.test.ts` files with `jest` ruleset
 
     ```javascript

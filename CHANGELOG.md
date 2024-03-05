@@ -1,3 +1,20 @@
+# [9.3.0-beta.3](https://github.com/RimacTechnology/style-guide/compare/v9.3.0-beta.2...v9.3.0-beta.3) (2024-03-06)
+
+# [9.3.0-beta.2](https://github.com/RimacTechnology/style-guide/compare/v9.3.0-beta.1...v9.3.0-beta.2) (2024-03-05)
+
+
+### Features
+
+* update `typescript-eslint` dep ([0a4b15f](https://github.com/RimacTechnology/style-guide/commit/0a4b15fe7edc6fe2fbfc53385069836db04003c6))
+
+# [9.3.0-beta.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.1...v9.3.0-beta.1) (2024-03-05)
+
+
+### Features
+
+* disable husky in actions ([b1c937f](https://github.com/RimacTechnology/style-guide/commit/b1c937fe7916b061b37e57536b6227653355ab54))
+* update dependencies ([bfa29d6](https://github.com/RimacTechnology/style-guide/commit/bfa29d6d80630ab5271d4b68549f5402b0cfe783))
+
 ## [9.2.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.0...v9.2.1) (2023-12-04)
 
 # [9.2.0](https://github.com/RimacTechnology/style-guide/compare/v9.1.3...v9.2.0) (2023-11-16)
