@@ -17,14 +17,11 @@ yarn-error.log*
 # Node
 node_modules/
 
-# Eslint
-.eslintcache
-
 # Env Files
 .env
 
 # IntelliJ
 .idea
 
-# Stylelint
-.stylelintcache
+# MacOS
+**/.DS_Store
