@@ -1,3 +1,10 @@
+# [9.3.0-beta.2](https://github.com/RimacTechnology/style-guide/compare/v9.3.0-beta.1...v9.3.0-beta.2) (2024-03-05)
+
+
+### Features
+
+* update `typescript-eslint` dep ([0a4b15f](https://github.com/RimacTechnology/style-guide/commit/0a4b15fe7edc6fe2fbfc53385069836db04003c6))
+
 # [9.3.0-beta.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.1...v9.3.0-beta.1) (2024-03-05)
 
 
