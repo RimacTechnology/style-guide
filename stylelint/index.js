@@ -1,4 +1,4 @@
-/** @type { import('stylelint').Config } */
+/** @type { import('stylelint').PublicApi } */
 const config = {
     defaultSeverity: 'error',
     plugins: ['stylelint-order'],
