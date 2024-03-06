@@ -1,3 +1,5 @@
+# [9.3.0-beta.3](https://github.com/RimacTechnology/style-guide/compare/v9.3.0-beta.2...v9.3.0-beta.3) (2024-03-06)
+
 # [9.3.0-beta.2](https://github.com/RimacTechnology/style-guide/compare/v9.3.0-beta.1...v9.3.0-beta.2) (2024-03-05)
 
 
