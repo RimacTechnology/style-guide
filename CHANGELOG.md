@@ -1,3 +1,15 @@
+# [10.0.0](https://github.com/RimacTechnology/style-guide/compare/v9.2.1...v10.0.0) (2024-03-06)
+
+
+### Features
+
+* update dependencies ([0b02d81](https://github.com/RimacTechnology/style-guide/commit/0b02d815ccdec2087507ad606af3d93d0c75cf15))
+
+
+### BREAKING CHANGES
+
+* removed type-graphql eslint plugin
+
 # [10.0.0-beta.1](https://github.com/RimacTechnology/style-guide/compare/v9.2.1...v10.0.0-beta.1) (2024-03-06)
 
 
