@@ -11,7 +11,6 @@ module.exports = {
                 './eslint/mobx.js',
                 './eslint/react.js',
                 './eslint/next.js',
-                './eslint/type-graphql.js',
             ],
             files: '*.ts',
         },
